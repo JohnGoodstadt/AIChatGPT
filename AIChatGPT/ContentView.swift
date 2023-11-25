@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-//johngoodstadt@icloud.com - android verified
 private let apiKey = "Your API Key Here"
 private let urlStringGPT = "https://api.openai.com/v1/chat/completions"
 
@@ -237,8 +236,8 @@ struct ContentView: View {
 				["role": "user", "content": text]
 			]
 			
-			
-			let parameters: [String: Any] = ["model":engine,"messages":messages]
+			let max_tokens = 200 //return no more than this, response might be truncated abruptly
+			let parameters: [String: Any] = ["model":engine,"messages":messages,"max_tokens":max_tokens]
 			print(parameters)
 			
 			do {
