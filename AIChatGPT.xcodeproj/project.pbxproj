@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750B99F22B0E27E600D6A95C /* FullRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B99F12B0E27E600D6A95C /* FullRequestView.swift */; };
+		7559398B2B0CDA2E00F8DB46 /* FullResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7559398A2B0CDA2E00F8DB46 /* FullResponseView.swift */; };
 		75C25B762AF7AD3F009F4273 /* AIChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C25B752AF7AD3F009F4273 /* AIChatGPTApp.swift */; };
 		75C25B782AF7AD3F009F4273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C25B772AF7AD3F009F4273 /* ContentView.swift */; };
 		75C25B7A2AF7AD40009F4273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C25B792AF7AD40009F4273 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750B99F12B0E27E600D6A95C /* FullRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullRequestView.swift; sourceTree = "<group>"; };
+		7559398A2B0CDA2E00F8DB46 /* FullResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullResponseView.swift; sourceTree = "<group>"; };
 		75C25B722AF7AD3F009F4273 /* AIChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C25B752AF7AD3F009F4273 /* AIChatGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatGPTApp.swift; sourceTree = "<group>"; };
 		75C25B772AF7AD3F009F4273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				75C25B752AF7AD3F009F4273 /* AIChatGPTApp.swift */,
 				75C25B772AF7AD3F009F4273 /* ContentView.swift */,
+				7559398A2B0CDA2E00F8DB46 /* FullResponseView.swift */,
+				750B99F12B0E27E600D6A95C /* FullRequestView.swift */,
 				75C25B792AF7AD40009F4273 /* Assets.xcassets */,
 				75C25B7B2AF7AD40009F4273 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C25B782AF7AD3F009F4273 /* ContentView.swift in Sources */,
+				7559398B2B0CDA2E00F8DB46 /* FullResponseView.swift in Sources */,
 				75C25B762AF7AD3F009F4273 /* AIChatGPTApp.swift in Sources */,
+				750B99F22B0E27E600D6A95C /* FullRequestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +288,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.goodstadt.john.AIChatGPT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.john.AIChatGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,12 +318,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.goodstadt.john.AIChatGPT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.john.AIChatGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
